@@ -1,0 +1,396 @@
+@font-face {
+  font-family: 'Raleway-Bold';
+  src: url("../fonts/Raleway-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Raleway-Bold.woff") format("woff"), url("../fonts/Raleway-Bold.ttf") format("truetype"), url("../fonts/Raleway-Bold.svg#Raleway-Bold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Arial';
+  src: url("../fonts/Arial.eot?#iefix") format("embedded-opentype"), url("../fonts/Arial.woff") format("woff"), url("../fonts/Arial.ttf") format("truetype"), url("../fonts/Arial.svg#Arial") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'OpenSans-Extrabold';
+  src: url("../fonts/OpenSans-Extrabold.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSans-Extrabold.woff") format("woff"), url("../fonts/OpenSans-Extrabold.ttf") format("truetype"), url("../fonts/OpenSans-Extrabold.svg#OpenSans-Extrabold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 22, ../../src/sass/main.scss */
+html {
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+}
+
+/* line 28, ../../src/sass/main.scss */
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+@media (min-width: 320px) {
+  /* line 34, ../../src/sass/main.scss */
+  body:before {
+    z-index: -10;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -43%;
+    bottom: 220px;
+    left: -25%;
+    background-image: -webkit-linear-gradient(157deg, transparent 50%, #0097F2 50%);
+    background-image: linear-gradient(-67deg, transparent 50%, #0097F2 50%);
+    -webkit-animation: bgMove 5s;
+            animation: bgMove 5s;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
+  }
+  @-webkit-keyframes bgMove {
+    from {
+      right: 10px;
+    }
+    to {
+      right: -43%;
+    }
+  }
+  @keyframes bgMove {
+    from {
+      right: 10px;
+    }
+    to {
+      right: -43%;
+    }
+  }
+}
+@media only screen and (min-width: 481px) {
+  /* line 28, ../../src/sass/main.scss */
+  body {
+    margin-bottom: 400px;
+    overflow-x: hidden;
+  }
+  /* line 60, ../../src/sass/main.scss */
+  body:before {
+    z-index: -10;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -43%;
+    bottom: 400px;
+    left: -25%;
+    background-image: -webkit-linear-gradient(150deg, transparent 50%, #0097F2 50%);
+    background-image: linear-gradient(-60deg, transparent 50%, #0097F2 50%);
+    -webkit-animation: bgMove 5s;
+            animation: bgMove 5s;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
+  }
+  @-webkit-keyframes bgMove {
+    from {
+      right: 50px;
+    }
+    to {
+      right: -43%;
+    }
+  }
+  @keyframes bgMove {
+    from {
+      right: 50px;
+    }
+    to {
+      right: -43%;
+    }
+  }
+}
+@media only screen and (min-width: 1025px) {
+  /* line 28, ../../src/sass/main.scss */
+  body {
+    margin-bottom: 220px;
+    overflow-x: hidden;
+  }
+  /* line 86, ../../src/sass/main.scss */
+  body:before {
+    z-index: -10;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -43%;
+    bottom: 220px;
+    left: -25%;
+    background-image: -webkit-linear-gradient(145deg, transparent 50%, #0097F2 50%);
+    background-image: linear-gradient(-55deg, transparent 50%, #0097F2 50%);
+    -webkit-animation: bgMove 5s;
+            animation: bgMove 5s;
+    -webkit-animation-timing-function: ease;
+            animation-timing-function: ease;
+  }
+  @-webkit-keyframes bgMove {
+    from {
+      right: 800px;
+    }
+    to {
+      right: -43%;
+    }
+  }
+  @keyframes bgMove {
+    from {
+      right: 800px;
+    }
+    to {
+      right: -43%;
+    }
+  }
+}
+
+/* line 110, ../../src/sass/main.scss */
+a {
+  color: #FFFFFF !important;
+}
+/* line 113, ../../src/sass/main.scss */
+a:focus, a:hover {
+  color: red;
+}
+/* line 118, ../../src/sass/main.scss */
+a[href^="tel:"] {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 125, ../../src/sass/main.scss */
+ul li {
+  list-style-type: none;
+}
+
+/* line 130, ../../src/sass/main.scss */
+#navbar {
+  font-family: 'Arial', sans-serif;
+  border-radius: 0;
+}
+@media only screen and (min-width: 1025px) {
+  /* line 130, ../../src/sass/main.scss */
+  #navbar {
+    min-height: 64px;
+  }
+  /* line 137, ../../src/sass/main.scss */
+  #navbar .container-fluid .navbar-brand {
+    margin: 2px 0 0 63px;
+  }
+  /* line 142, ../../src/sass/main.scss */
+  #navbar ul.nav {
+    margin: 16px 0 0 25px;
+  }
+  /* line 145, ../../src/sass/main.scss */
+  #navbar ul.nav li {
+    margin-right: 40px;
+  }
+  /* line 148, ../../src/sass/main.scss */
+  #navbar ul.nav li a {
+    padding: 5px;
+  }
+}
+
+/* line 156, ../../src/sass/main.scss */
+nav {
+  background-color: #0097F2 !important;
+}
+
+/* line 162, ../../src/sass/main.scss */
+footer span,
+nav span {
+  font-family: 'Arial', sans-serif;
+}
+
+/* line 168, ../../src/sass/main.scss */
+.navbar-brand i {
+  color: #0097F2;
+  font-size: 20px;
+  background-color: #FFFFFF;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+@media (max-width: 480px) {
+  /* line 177, ../../src/sass/main.scss */
+  .navbar-toggle {
+    margin-top: 3px;
+    margin-right: 6px;
+  }
+}
+/* line 183, ../../src/sass/main.scss */
+.navbar-toggle i {
+  font-size: 28px;
+}
+
+/* line 188, ../../src/sass/main.scss */
+a.menu-item:active,
+a.menu-item:focus,
+a.menu-item:hover {
+  color: #0097F2 !important;
+}
+
+/* line 194, ../../src/sass/main.scss */
+header {
+  width: 100%;
+  min-height: auto;
+}
+/* line 198, ../../src/sass/main.scss */
+header h1 {
+  font-family: 'Raleway-Bold', sans-serif;
+}
+@media (max-width: 320px) {
+  /* line 198, ../../src/sass/main.scss */
+  header h1 {
+    margin-top: 2px;
+    padding-top: 1px;
+    font-size: 18px;
+    line-height: 1.2;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  /* line 198, ../../src/sass/main.scss */
+  header h1 {
+    margin-top: 50px;
+    font-size: 52px;
+    line-height: 1.35;
+    width: 1100px;
+  }
+}
+
+/* line 215, ../../src/sass/main.scss */
+main {
+  font-family: 'OpenSans-Extrabold', sans-serif;
+}
+@media (min-width: 320px) {
+  /* line 215, ../../src/sass/main.scss */
+  main {
+    margin-top: 25px;
+  }
+  /* line 220, ../../src/sass/main.scss */
+  main section {
+    padding-left: 30px !important;
+  }
+  /* line 223, ../../src/sass/main.scss */
+  main section h2 {
+    font-size: 48px;
+  }
+  /* line 227, ../../src/sass/main.scss */
+  main section p {
+    font-size: 12px;
+    width: 100px;
+  }
+  /* line 232, ../../src/sass/main.scss */
+  main section:nth-child(2) {
+    padding-left: 40px !important;
+  }
+}
+@media only screen and (min-width: 481px) {
+  /* line 238, ../../src/sass/main.scss */
+  main section {
+    padding-left: 10px !important;
+  }
+  /* line 241, ../../src/sass/main.scss */
+  main section h2 {
+    font-size: 143px;
+  }
+  /* line 245, ../../src/sass/main.scss */
+  main section p {
+    font-size: 16px;
+    width: 225px;
+  }
+  /* line 250, ../../src/sass/main.scss */
+  main section:nth-child(2) {
+    padding-left: 480px !important;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  /* line 215, ../../src/sass/main.scss */
+  main {
+    margin-top: 40px;
+  }
+  /* line 259, ../../src/sass/main.scss */
+  main section h2 {
+    font-size: 125px;
+  }
+  /* line 263, ../../src/sass/main.scss */
+  main section p {
+    font-size: 18px;
+    width: 250px;
+  }
+  /* line 268, ../../src/sass/main.scss */
+  main section:nth-child(2) {
+    padding-left: 200px !important;
+  }
+  /* line 271, ../../src/sass/main.scss */
+  main section:nth-child(2) p {
+    width: 257px;
+  }
+}
+
+/* line 279, ../../src/sass/main.scss */
+footer {
+  background-color: #000000;
+}
+@media (min-width: 320px) {
+  /* line 279, ../../src/sass/main.scss */
+  footer {
+    margin-top: 90px;
+  }
+  /* line 285, ../../src/sass/main.scss */
+  footer .contacts .text-muted {
+    white-space: nowrap;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  /* line 279, ../../src/sass/main.scss */
+  footer {
+    font-size: 24px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 400px;
+    min-height: 400px;
+    margin-top: -400px;
+  }
+  /* line 300, ../../src/sass/main.scss */
+  footer .row {
+    padding: 30px;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  /* line 279, ../../src/sass/main.scss */
+  footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 220px;
+    min-height: 220px;
+    margin-top: -220px;
+  }
+  /* line 313, ../../src/sass/main.scss */
+  footer .row {
+    padding: 30px;
+  }
+}
+
+/* line 319, ../../src/sass/main.scss */
+.contacts,
+.social-buttons {
+  -webkit-padding-start: 0;
+     -moz-padding-start: 0;
+          padding-inline-start: 0;
+}
+/* line 324, ../../src/sass/main.scss */
+.contacts li i,
+.social-buttons li i {
+  font-size: 15px;
+}
+@media only screen and (min-width: 481px) and (max-width: 1024px) {
+  /* line 324, ../../src/sass/main.scss */
+  .contacts li i,
+  .social-buttons li i {
+    font-size: 24px;
+  }
+}
